@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+            /* background: url(img/wallpaperflare.com_wallpaper.jpg); */
+            background-color: #0a1d34;
+            list-style: none;
+        }
+        header h1{
+            text-align: center;
+            margin-top: 39px;
+            color: aliceblue;
+            letter-spacing: 5px;
+        }
+        
+        .plant-col{
+            background:rgba(30, 30, 30, 0.3);
+            width: 330px;
+            height: 500px;
+            box-shadow: 0px 0px 33px 7px black;
+            border-radius: 39px;
+            box-sizing: border-box;
+            transform-style: preserve-3d;
+            
+        }
+        .plant-col a{
+            text-decoration: none;
+            list-style: none;
+            color: white;
+            
+        }
+        .plant-col a:hover{
+            color:  rgb(253, 145, 4);
+            font-size: 14px;
+        }
+             .plant-col button {
+                
+                width: 90px;
+                height: 36px;
+                background-color: transparent;
+                border-radius: 5px;
+                transition: 1s ease;
+                }
+               
+        .row{
+            justify-content: space-around;
+            text-align: center;
+            display: flex;
+            
+            margin-top:100px;
+            margin-right: 35px;
+            margin-left: 35px;
+    
+            
+        }
+        .row .plant-col h2{
+            color: rgb(253, 145, 4);
+            margin: 33px 34px;
+            letter-spacing: 3px;
+            font-size: 20px;
+        
+
+        } 
+        .row .plant-col p{
+            color: rgb(171, 174, 177);
+            margin:45px;
+            letter-spacing: 2px;
+            line-height: 29px;
+            
+        }
+
+
+
+
+        h2{
+    font-size: 33px;
+    color: aliceblue;
+    text-align: center;
+   margin-top: 23px;
+   letter-spacing: 2px;
+   text-decoration: underline;
+   opacity: 0.8;
+}
+
+
+
+
+
+@media (max-width:700px) {
+        .about{
+
+             flex-direction: column;
+             
+           
+          }
+
+        }
+
+
+        @media(max-width:1035px){
+        .row{
+              
+              display:flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              
+            }
+
+        .plant-col{
+            margin: 32px;
+        }
+               
+
+      
+    }
+
+
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    <header>
+    <h2>Road Map</h2>
+    </header>
+    <section>
+        <div class="row">
+
+
+            <div class="plant-col" data-tilt>
+                <h2>My Vision</h2>
+                <p>
+                 To become a centre of excellence in nurturing the quality Computer Science & Engineering professionals embedded with software knowledge, new technology like AI, ML for research and ethical values to cater to the needs of industry and society. </p>
+               <button><a href="my vision.html">Know More</a></button>
+            </div>
+
+
+
+            <div class="plant-col" data-tilt>
+                <h2>My Goal</h2>
+                <p>
+                 AI models using machine learning algorithms and deep learning neural networks which can be used to make business decisions that affect the entire organizatio & new applications and systems that utilize AI to improve performance and efficiency</p>
+               <button><a href="my goal.html">Know More</a></button>
+            </div>
+
+
+
+            <div class="plant-col" data-tilt>
+                <h2>My Achievement</h2>
+                <p>
+                 received awards, won competitions, achieved high grades in studies, volunteering, participating in sporting events, etc. 2) Professional: saved the company time and money, increased performance, facilitated growth, met and exceeded work targets, etc.</p>
+               <button><a href="my achievement.html">Know More</a></button>
+            </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+
+    </section>
+   
+
+   
+</body>
+</html>
